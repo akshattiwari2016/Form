@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title> Forms </title>
+  <style>
+    button {
+      font-size: 20px;
+      padding: 10px;
+      background-color: #3217e3;
+    }
+  </style>
+</head>
+
+<body>
+  <h1> Share your Favourites </h1>
+  <form id="idk">
+    <label for="name">Name </label>
+    <input type="text" id="name" name="name">
+    <br> <br>
+    <label for="color">Favorite Color</label>
+    <input type="text" id="color" name="color">
+    <br> <br>
+    <label for="hobby">Hobby</label>
+    <input type="text" id="color" name="hobby" <br> <br>
+    <label for="food">Favourite food</label>
+    <input type="text" id="Food" name="Favourite food" <br> <br>
+    <button type="submit">Submit </button>
+  </form>
+  <script>
+    document.getElementById("idk").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      const color = document.getElementById("color").value;
+      const color = document.GetElementById("hobby").value;
+      const color = document.GetElementById("Food").value;
+      alert(`NAME: ${name}\nFavourite color:${color}`);
+    });
+  </script>
+</body>
+<img src="https://i.pinimg.com/236x/6f/ff/3a/6fff3a029e2291aacdd1584f8b47ac93.jpg" alt="Me in school">🫷👈⬅️↩️me
+
+</html>
